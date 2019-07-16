@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Justin Petelka"
+title                    : "jpetelka"
 title_separator          : "|"
 name                     : &name "Justin Petelka"
 description              : &description "Justin Petelka, Academic Website"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "jpetelka"
+  name             : "Justin Petelka"
   avatar           : "profile.png"
-  bio              : "PhD Student, University of Washington"
+  bio              : "PhD Student, The Information School @ University of Washington"
   location         : "Seattle, WA, USA"
   employer         :
   googlescholar    : # "http://yourfullgooglescholarurl.com"
