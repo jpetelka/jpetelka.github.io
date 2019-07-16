@@ -12,6 +12,6 @@ citation: '<strong>Petelka, Justin</strong>, Yixin Zou, and Florian Schaub. (201
 
 [GitHub Repo](https://github.com/spilab-umich/phishing-warning-experiment){:target="_blank"}
 
-[Download paper here<](https://jpetelka.github.io/files/chi_2019_phishing.pdf){:target="_blank"}
+[Download paper here](https://jpetelka.github.io/files/chi_2019_phishing.pdf){:target="_blank"}
 
 <!-- Recommended citation: Petelka, Justin, Yixin Zou, and Florian Schaub. (2019). &quot;Put Your Warning Where Your Link Is: Improving and Evaluating Email Phishing Warnings.&quot; <i>Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, 2019.</i>. (p. 518).-->
