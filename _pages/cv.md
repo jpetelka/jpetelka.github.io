@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.S. in Japanese Studies, Unversity of Michigan, 2011
+* B.A. in Japanese Studies, Unversity of Michigan, 2011
 * M.S. in Information Management, University of Washington, 2018
 * Ph.D in Information Science, University of Washington, 2050 (expected)
 
