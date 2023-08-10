@@ -1,0 +1,13 @@
+---
+title: "Generating Practices: Investigations into the Double Embedding of GDPR and Data Access Policies"
+collection: publications
+permalink: /publications/cse_2022_gdpr
+excerpt: 'We asked people in the United Kingdom, India, and the United States to request copies of their personal data and found evidence of a Brussels Effect.'
+date: 2022-2-1
+venue: 'Proceedings of the ACM on Human-Computer Interaction (CSCW)'
+paperurl: 'https://doi.org/10.1145/3555631'
+citation: '<strong>Petelka, J.,</strong> Finn, M., Oreglia, O., Finn, M., Srinivasan, J. (2022) "Generating Practices: Investigations into the Double Embedding of GDPR and Data Access Policies. In <i>Proceedings of the ACM on Human-Computer Interaction 6</i> (CSCW2).' 
+---
+<i><strong>Abstract</strong></i> - The right of access, found in the EU’s GDPR and similar data protection regulations around the world, requires corporations and other organizations to give people access to the data they hold about them. Such regulations create obligations for data controllers but leave flexibility on how to achieve them, resulting in variation in how Data Subject Access Requests (DSARs) are implemented by different corporations. To understand the various practices emerging around DSARs and how requesting data influences the way people think of data protection laws, we asked participants in India, the UK and USA to make 38 DSARs from 11 different companies. Using the metaphor of the policy-design-practice “knot”, we examine DSARs as a case of the co-constitutive links between policy, design, and practice. We find that the DSAR process was not linear and participants employed many work-arounds. The challenges they encountered in the overall DSAR process negatively affected their perceptions of data protection policies. Our study suggests that researchers have to be flexible in adapting research methodology to understanding emerging practices, and that there is a need for more collaborative experimentation with DSARs before standardizing the process.
+
+[Download paper here](https://jpetelka.github.io/files/cscw_2022_gdpr){:target="_blank"}
