@@ -3,7 +3,7 @@ title: "Being (In)visible: Privacy, Transparency, and Disclosure in the Self-man
 collection: publications
 permalink: /publications/chi_2020_invisible
 excerpt: 'We examined how people managing bipolar disorder experience privacy while discussing mental health management.'
-date: 2020
+date: 2020-9-1
 venue: 'Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems'
 paperurl: 'https://doi.org/10.1145/3313831.3376573'
 citation: '<strong>Petelka, J.,</strong> Van Kleunen, L., Albright, L., Murnane, E., Voida, S., Snyder, J. Being (In)Visible: Privacy, Transparency, and Disclosure in the Self-Management of Bipolar Disorder' 

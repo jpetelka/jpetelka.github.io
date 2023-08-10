@@ -3,7 +3,7 @@ title: "GestureCalc: An Eyes-Free Calculator for Touch Screens"
 collection: publications
 permalink: /publications/assets_2019_gesturecalc
 excerpt: 'We developed a calculator that used gestures as input; blind people used our calculator faster than a seek-based touch calculator.'
-date: 2019-10
+date: 2019-10-1
 venue: 'The 21st International ACM SIGACCESS Conference on Computers and Accessibility'
 paperurl: 'https://doi.org/10.1145/3308561.3353783'
 citation: 'Chaudhuri, B., Perlmutter, L., <strong>Petelka, J.</strong>, Garrison, P., Fogarty, J., Wobbrock, J. O., & Ladner, R. E. GestureCalc: An Eyes-Free Calculator for Touch Screens.'
