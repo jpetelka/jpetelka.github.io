@@ -1,5 +1,5 @@
 ---
-title: "Principles Matter: Integrating an Ethics Intervention into a Computer Security Course."
+title: "Principles Matter: Integrating an Ethics Intervention into a Computer Security Course"
 collection: publications
 permalink: /publications/cse_2022_ethics
 excerpt: 'We deployed an ethics learning module in a computer security course; it went well, but one module in one course can only do so much.'
