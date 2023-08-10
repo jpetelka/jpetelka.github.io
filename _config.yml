@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Justin Petelka"
   avatar           : "profile.png"
-  bio              : "PhD Student, The Information School @ University of Washington"
+  bio              : "PhD Candidate, The Information School @ University of Washington"
   location         : "Seattle, WA, USA"
   employer         :
   googlescholar    : # "http://yourfullgooglescholarurl.com"
@@ -101,7 +101,7 @@ author:
   instagram        :
   lastfm           :
   linkedin         :
-  orcid            : # "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0003-2423-2079"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
