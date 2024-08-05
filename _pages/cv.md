@@ -13,6 +13,7 @@ Education
 ======
 * B.A. in Japanese Studies, Unversity of Michigan, 2011
 * M.S. in Information Management, University of Washington, 2018
+* M.S. in Information Science, University of Washington, 2021
 * Ph.D in Information Science, University of Washington, 2025 (expected)
 
 Work experience
@@ -56,4 +57,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different Slack teams
+<!-- * Currently signed in to 43 different Slack teams -->

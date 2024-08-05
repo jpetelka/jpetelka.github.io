@@ -9,14 +9,17 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  # - title: "Portfolio"
-  #   url: /portfolio/
+  - title: "Portfolio"
+    url: /portfolio/
         
   # - title: "Blog Posts"
   #   url: /year-archive/
     
+  # - title: "CV"
+  #   url: /cv/
+
   - title: "CV"
-    url: /cv/
+    url: https://github.com/jpetelka/jpetelka.github.io/blob/main/files/jpetelka_CV_SPR2024.docx
     
 #  - title: "Guide"
 #    url: /markdown/
