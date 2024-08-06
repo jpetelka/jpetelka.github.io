@@ -1,10 +1,10 @@
 ---
 title: "Restricting the Link: Effects of Focused Attention and Time Delay on Phishing Warning Effectiveness"
 collection: publications
+date: 2025
+venue: 'Forthcoming'
 permalink: /publications/2024_phishing
 excerpt: 'We experimentally compared different ways to restrict suspicious hyperlinks in email phishing warnings; link restrictions work well but may frustrate users.'
-# date: Forthcoming
-# venue: 'Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems'
 # paperurl: 'https://doi.org/10.1145/3290605.3300748'
 citation: '<strong>Petelka, J.</strong>, Berens, B., Sugatan, C., Volkamer, M., Schaub, F. (Forthcoming). "Restricting the Link: Effects of Focused Attention and Time Delay on Phishing Warning Effectiveness".'
 ---
