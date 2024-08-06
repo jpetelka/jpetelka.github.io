@@ -2,7 +2,7 @@
 title: "Restricting the Link: Effects of Focused Attention and Time Delay on Phishing Warning Effectiveness"
 collection: publications
 date: 2025-5-1
-venue: 'Forthcoming'
+venue: 'Under Review'
 permalink: /publications/2024_phishing
 excerpt: 'We experimentally compared different ways to restrict suspicious hyperlinks in email phishing warnings; link restrictions work well but may frustrate users.'
 # paperurl: 'https://doi.org/10.1145/3290605.3300748'
