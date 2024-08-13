@@ -11,15 +11,18 @@ toc: true
     }
 </style>
 
-## Under Construction
+**UNDER CONSTRUCTION**
 
 ## tl;dr Summary 
-For this project, we conducted two large-scale (> 1000 participants) web-based studies. For each study, I designed and developed novel anti-phishing warnings for email inboxes by drawing on warning science and anti-phishing warning research. I tested these novel warning designs by creating a working inbox that displayed emails, some of which contained phishing links and anti-phishing warnings to participants. This inbox recorded participant mouse interactions with hyperlinks (i.e. clicks and hovers). 
+Working as the project lead, we conducted two large-scale (> 1000 participants) web-based studies. For each study, I designed and developed novel anti-phishing warnings for email inboxes by drawing on warning science and anti-phishing warning research. I tested these novel warning designs by creating a working inbox that displayed emails, some of which contained phishing links and anti-phishing warnings to participants. This inbox recorded participant mouse interactions with hyperlinks (i.e. clicks and hovers). 
 
-I evaluated the effect of three different warning features on phishing warning effectiveness:
+In the first study, I evaluated the effect of two different warning features on phishing warning effectiveness:
 - **placement** (the location of a phishing warning)
 -  **activation** (the interaction method that actuates a phishing warning)
-- **link restriction** (contextually blocking suspicious hyperlink clicks)
+
+In the second study, I evaluated the effect of **hyperlink restriction**, or contextually blocking a hyperlink, on phishing warning effectiveness. Specifically I tested:
+- **time delay** (block clicking on a hyperlink for a few seconds)
+- **focused attention** (blocking hyperlink clicks in email and funneling email readers into clicking on the hyperlink in the warning)
 
 Using inferential statistics and regression analyses, I evaluated the effect of different warning features in terms of click-through rate, or the rate at which people clicked past an anti-phishing warning and travelled to a suspicious website. The results from this work demonstrate that anti-phishing warnings that appear near the suspicious hyperlink are more effective than warnings that appear before the suspicious hyperlink (i.e., in the email's header section) or after clicking a suspicious hyperlink (i.e., a full screen browser warning). In addition, anti-phishing warnings that use some kind of hyperlink restriction (e.g., a short time delay before a hyperlink can be clicked) can also improve a warning's effectiveness at deterring people from clicking on phishing links (Petelka et al, forthcoming).
 
@@ -27,6 +30,11 @@ Using inferential statistics and regression analyses, I evaluated the effect of 
 [Put Your Warning Where Your Link Is (2019)](/publications/chi_2019_phishing "Link to our 2019 Phishing Paper" target="_blank")
 
 [Restrict The Link (2025)](/publications/2024_phishing "Link to our 2025 Phishing Paper" target="_blank")
+
+## Related Github Repos
+[Inbox 1.0](https://github.com/spilab-umich/phishing-warning-experiment){:target="_blank"}
+
+[Inbox 2.0 (Private until public release in September 2024)](https://github.com/spilab-umich/phishing-warning-experiment-2){:target="_blank"}
 
 ## Problem Statement
 Email continues to be a popular medium for delivering phishing links. Scammers will send emails that encourage potential victims to visit malicious websites by clicking on hyperlinks. To help email readers identify phishing links and websites, email providers will display anti-phishing warnings either directly in emails or just before a user loads a suspicious website. Prior work in warning science suggests that specific warning design choices can influence (increase or decrease) a warning's effectiveness. If applied to email phishing warnings, it is reasonable to suggest that specific phishing warning design choices can increase or decrease warning effectiveness. 
@@ -60,7 +68,7 @@ If we consider suspicious hyperlinks as the core hazard, then these warnings eit
 - browser warnings
 - link-focused warnings
 
-As I ideated through what a link-focused warning should look like, I realized there was an opportunity to further leverage research on security warnings. Similar to banner or browser warnings, link-focused warnings could statically mark-up a suspicious hyperlink OR the warning could appear dynamically when an email reader hovers over a suspicious link. Prior work suggested that security warnings are most effective when they are actively displayed, rather than statically displayed**.
+As I ideated through what a link-focused warning should look like, I realized there was an opportunity to further leverage insights from security warning research. Similar to banner or browser warnings, link-focused warnings statically mark-up a suspicious hyperlink. Alternatively, the warning could appear dynamically when an email reader hovers over a suspicious link. Prior work suggested that security warnings are most effective when they are actively displayed, rather than statically displayed**.
 
 \** Serge Egelman, Lorrie Faith Cranor, and Jason Hong. 2008. You’ve been warned: an empirical study of the effectiveness of web browser phishing warnings. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, 1065–1074
 
@@ -68,9 +76,16 @@ This led to our second warning feature to test, **activation**. This applied onl
 
 For link-focused warnings, **activation** had two different factors or types:
 - static (appears with the email content)
-- on-hover (appears when an email reader hovers over a suspicious link)
+- active (appears when an email reader hovers over a suspicious link)
 
-### Research Method
+This gave us four different types of warning to test: 
+
+1. a banner warning
+2. a browser warning
+3. an active link-focused warning (appears on hover)
+4. a static link-focused warning (appears without interaction)
+
+### Study 1: Inbox Development
 Prior to this work, there were two methods for examining anti-phishing warning effectiveness. One is to show participants email messages on a screen, some of which contain phishing links, and see if they can spot phishing links*. This method is helpful because it provides researchers with the opportunity to speak to participants about phish without any risk of participants visiting phishing websites. It also is possible to create alternate anti-phishing warnings which enables comparisons between different warning features. However, this method does not have high ecological validity; the way that people respond to phish in their inbox is likely different from how they examine emails in a controlled environment with a security researcher.
 
 \* Volkamer, Melanie, Karen Renaud, and Benjamin Reinheimer. "Torpedo: tooltip-powered phishing email detection." ICT Systems Security and Privacy Protection: 31st IFIP TC 11 International Conference, SEC 2016, Ghent, Belgium, May 30-June 1, 2016, Proceedings 31. Springer International Publishing, 2016.
@@ -95,3 +110,27 @@ I developed this inbox using `Python 3.6` and `Django 1.11.3`. The link to our G
 | :--: |
 | *A screenshot of the email inbox from our first study.* |
 
+This website contains and displays emails that I exported from my own email accounts. To make this inbox's expeprience familiar and intuitive to a broad range of participants, we modeled the inbox's layout and design on Gmail. However we did remove any indicators or logos that suggested this was actually Gmail to avoid priming participants that Gmail's security measures were in place.
+
+I further implemented recording features using HTML/CSS and Javascript's AJAX function. Each time a participant hovered or clicked over a hyperlink in our inbox, I recorded this event and sent the interaction record to our web server. This let us record participant mouse hovers and clicks with hyperlinks, which enabled us to identify differences in the effect of different phishing warning features on participant phishing link interactions.
+
+### Study 1: Warning Design
+Our next step was to design a set of warnings to show participants. 
+
+### Study 1: Phishing URLs
+
+### Study 1: Data Collection Method
+
+### Study 1: Results and Insights
+
+## Study 2: Project Narrative
+
+### Study 2: Inbox Refactoring
+
+### Study 2: Warning Design
+
+### Study 1: Phishing URLs
+
+### Study 2: Data Collection Method
+
+### Study 2: Results and Insights
