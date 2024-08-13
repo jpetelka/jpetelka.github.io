@@ -27,14 +27,12 @@ In the second study, I evaluated the effect of **hyperlink restriction**, or con
 Using inferential statistics and regression analyses, I evaluated the effect of different warning features in terms of click-through rate, or the rate at which people clicked past an anti-phishing warning and travelled to a suspicious website. The results from this work demonstrate that anti-phishing warnings that appear near the suspicious hyperlink are more effective than warnings that appear before the suspicious hyperlink (i.e., in the email's header section) or after clicking a suspicious hyperlink (i.e., a full screen browser warning). In addition, anti-phishing warnings that use some kind of hyperlink restriction (e.g., a short time delay before a hyperlink can be clicked) can also improve a warning's effectiveness at deterring people from clicking on phishing links (Petelka et al, forthcoming).
 
 ## Related Papers
-[Put Your Warning Where Your Link Is (2019)](/publications/chi_2019_phishing "Link to our 2019 Phishing Paper" target="_blank")
-
-[Restrict The Link (2025)](/publications/2024_phishing "Link to our 2025 Phishing Paper" target="_blank")
+[Put Your Warning Where Your Link Is (2019)](/publications/chi_2019_phishing){:target="_blank"}
+[Restrict The Link (2025)](/publications/2024_phishing){:target="_blank"}
 
 ## Related Github Repos
 [Inbox 1.0](https://github.com/spilab-umich/phishing-warning-experiment){:target="_blank"}
-
-[Inbox 2.0 (Private until public release in September 2024)](https://github.com/spilab-umich/phishing-warning-experiment-2){:target="_blank"}
+[Inbox 2.0 (Private until public release in September 2024)](https://github.com/spilab-umich/phishing-experiment-infrastructure-2){:target="_blank"}
 
 ## Problem Statement
 Email continues to be a popular medium for delivering phishing links. Scammers will send emails that encourage potential victims to visit malicious websites by clicking on hyperlinks. To help email readers identify phishing links and websites, email providers will display anti-phishing warnings either directly in emails or just before a user loads a suspicious website. Prior work in warning science suggests that specific warning design choices can influence (increase or decrease) a warning's effectiveness. If applied to email phishing warnings, it is reasonable to suggest that specific phishing warning design choices can increase or decrease warning effectiveness. 
@@ -94,7 +92,7 @@ The second way to examine anti-phishing warning effectiveness is to collect and 
 
 \** Akhawe, Devdatta, and Adrienne Porter Felt. "Alice in Warningland: a large-scale field study of browser security warning effectiveness." 22nd USENIX Security Symposium (USENIX Security 13). 2013.
 
-I sought a middle ground between these two methods, or a way to balance the increased ecological validity of telemetry studies while keeping the ability to show different warnings to participants. Specifically, this method would need to:
+I sought a middle ground between these two methods, or a way to balance the increased ecological validity of telemetry studies while keeping the ability of user studies to show different warnings to participants and prevent them from clicking on real phishing links. Specifically, this method would need to:
 1. run on a participant's device 
 2. display real(istic) emails in an inbox
 4. display phishing links in some emails
@@ -115,7 +113,21 @@ This website contains and displays emails that I exported from my own email acco
 I further implemented recording features using HTML/CSS and Javascript's AJAX function. Each time a participant hovered or clicked over a hyperlink in our inbox, I recorded this event and sent the interaction record to our web server. This let us record participant mouse hovers and clicks with hyperlinks, which enabled us to identify differences in the effect of different phishing warning features on participant phishing link interactions.
 
 ### Study 1: Warning Design
-Our next step was to design a set of warnings to show participants. 
+Our next step was to design a set of warnings to show participants. Each warning had to be similar both to each other for internal validity and similar to the existing Google warnings shown above.
+
+After some ideation, we settled on a simple design that had a white color scheme to match the inbox, red accents to signal something was wrong to email readers, and minimal text so the text could remain consistent acrross the five different types of warning. We also included the full URL text inside the warning so participants did not have to look at the status bar in the lower left to check the link's destination.
+
+| ![banner_2019](/images/phishing_project/2019/email_banner_warning.JPG) |
+| :--: |
+| *A screenshot of our banner warning in the inbox.* |
+
+| ![browser_2019](/images/phishing_project/2019/browser_warning_group.JPG) |
+| :--: |
+| *A screenshot of our full screen browser warning.* |
+
+| ![link_warning_2019](/images/phishing_project/2019/email_linkwarning.JPG) |
+| :--: |
+| *A screenshot of our static link-focused warning. This warning contains an X in the top right so participants can dismiss this static warning if they wish* |
 
 ### Study 1: Phishing URLs
 
