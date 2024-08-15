@@ -28,10 +28,12 @@ Using inferential statistics and regression analyses, I evaluated the effect of 
 
 ## Related Papers
 [Put Your Warning Where Your Link Is (2019)](/publications/chi_2019_phishing){:target="_blank"}
+
 [Restrict The Link (2025)](/publications/2024_phishing){:target="_blank"}
 
 ## Related Github Repos
 [Inbox 1.0](https://github.com/spilab-umich/phishing-warning-experiment){:target="_blank"}
+
 [Inbox 2.0 (Private until public release in September 2024)](https://github.com/spilab-umich/phishing-experiment-infrastructure-2){:target="_blank"}
 
 ## Problem Statement
@@ -117,7 +119,7 @@ Our next step was to design a set of warnings to show participants. Each warning
 
 After some ideation, we settled on a simple design that had a white color scheme to match the inbox, red accents to signal something was wrong to email readers, and minimal text so the text could remain consistent acrross the five different types of warning. We also included the full URL text inside the warning so participants did not have to look at the status bar in the lower left to check the link's destination.
 
-| ![banner_2019](/images/phishing_project/2019/email_banner_warning.JPG) |
+| ![banner_2019](/images/phishing_project/2019/banner_warning_group.JPG) |
 | :--: |
 | *A screenshot of our banner warning in the inbox.* |
 
