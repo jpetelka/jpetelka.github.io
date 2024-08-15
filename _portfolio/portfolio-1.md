@@ -127,7 +127,7 @@ After some ideation, we settled on a simple design that had a white color scheme
 | :--: |
 | *A screenshot of our full screen browser warning.* |
 
-| ![link_warning_2019](/images/phishing_project/2019/link_focused_warning_group.jpg) |
+| ![link_warning_2019](/images/phishing_project/2019/link_focused_warning_group.JPG) |
 | :--: |
 | *A screenshot of our static link-focused warning displayed over a Yahoo email. This warning contains an X in the top right so participants can dismiss this static warning if they wish* |
 
